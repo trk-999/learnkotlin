@@ -7,3 +7,31 @@ The main function is the entry point, or starting point, of the program."
 
 ----
 
+From: https://developer.android.com/codelabs/basic-android-kotlin-compose-variables?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-1%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-variables#3
+
+"
+
+If you need to update the value of a variable, declare the variable with the Kotlin keyword var, instead of val.
+
+val keyword - Use when you expect the variable value will not change.
+var keyword - Use when you expect the variable value can change.
+With val, the variable is read-only, which means you can only read, or access, 
+the value of the variable. Once the value is set, you cannot edit or modify its value. 
+With var, the variable is mutable, which means the value can be changed or modified. The value can be mutated.
+
+To remember the difference, think of val as a fixed value and var as variable. 
+In Kotlin, it's recommended to use the val keyword over the var keyword when possible.
+
+Remember that you should only use var to declare a variable if you expect the value to change. 
+Otherwise you should default to using val to declare a variable. 
+This practice makes your code safer. 
+Using val ensures that variables won't get updated in your program if you don't expect them to. 
+Once a val is assigned a value, it always stays that value.
+
+
+"
+
+----
+
+
+
