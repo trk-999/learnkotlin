@@ -67,4 +67,19 @@ You can also concatenate variables of other data types like Int and Boolean to S
 
 "
 
+Reminder of basic kotlin terminology
 
+"Declaring (or defining) a function uses the fun keyword and includes code 
+within the curly braces which contains the instructions needed to execute a task.
+Calling a function causes all the code contained in that function to execute."
+
+"
+
+"
+
+In more complex apps, functions do more than print text.
+
+Kotlin functions can also generate data called a return value which is stored in a variable 
+that you can use elsewhere in your code.
+
+"
